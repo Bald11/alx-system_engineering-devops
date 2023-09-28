@@ -1,0 +1,2 @@
+#!/bi/bash
+chgrp --reference=school hello
