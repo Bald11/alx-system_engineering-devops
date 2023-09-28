@@ -1,2 +1,2 @@
 #!/bin/bash
-rsync -a --ignore-existing --exclude='*' --include='*.html' ./ ../
+cp --update -t .. *.html
