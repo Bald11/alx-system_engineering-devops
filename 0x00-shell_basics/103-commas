@@ -1,2 +1,3 @@
 #!/bin/bash
-ls -A | sed 's/^\(.\+\)$/\1\//; s/$/, /' | tr -d '\n' && echo
+ls -ap | tr -d '\n' | sed 's/\//, /g; s/\(.*\),/\1\n/'
+
